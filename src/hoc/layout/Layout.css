@@ -1,0 +1,8 @@
+.TextStyle {
+  font-weight: bold;
+  color: red;
+}
+.ContainerStyle {
+  margin-top: 100px;
+  z-index: 10;
+}

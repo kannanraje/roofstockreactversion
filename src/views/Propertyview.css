@@ -1,0 +1,55 @@
+.carddeckview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardimageview {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.cardview {
+  width: 22rem;
+}
+.cardbodyview {
+  line-height: 1.375rem;
+}
+.cardviewAddress {
+  padding: 5px;
+  text-align: center;
+}
+.viewas {
+  text-align: right;
+  font-size: 40px;
+  color: lightskyblue;
+}
+.zoom {
+  padding: 1px;
+  transition: transform 0.2s; /* Animation */
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px blue solid;
+  font-size: 42px;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+.tableheaderbig {
+  width: 200px;
+  height: 50px;
+}
+.tableheadermedium {
+  width: 150px;
+  height: 50px;
+}
+.tablerowimage {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  padding: 20px;
+}
